@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "ATLAS CXK",
+      "hasCanvas": false,
+      "bodyTextLen": 997,
+      "bodyTextHash": "bf5e430e460fb742b74c771202e115d7107ffd919c979870bab6d056956df3c5",
+      "bodyTextPrefix": "ATLAS CXK Cơ · Xương · Khớp · Tuần hoàn · Hô hấp CƠ XƯƠNG TUẦN H",
+      "horizontalOverflow": false,
+      "consoleErrors": [
+        "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <MatchImpl routeId=\"/\">\n      <MatchView router={{...}} match={{id:\"//\",ssr:true, ...}}>\n        <CatchBoundary getResetKey={function getResetKey} errorComponent={function AppErrorComponent} ...>\n          <MatchInnerImpl match={{id:\"//\",ssr:true, ...}}>\n            <Lazy>\n              <Home>\n                <Shell>\n                  <div className=\"flex h-dvh...\" style={{...}}>\n                    <div className=\"grid min-h...\">\n                      <section className=\"gold-frame...\">\n                        <div>\n                        <header className=\"pointer-ev...\">\n                          <div className=\"pointer-ev...\">\n                            <div>\n                            <label className=\"flex h-11 ...\">\n                              <Search>\n                              <input\n                                value=\"\"\n                                onChange={function onChange}\n                                placeholder=\"Tìm xương, cơ…\"\n                                className=\"w-full bg-transparent text-sm text-paper outline-none placeholder:text-muted\"\n                                aria-label=\"Tìm cấu trúc\"\n-                               style={{caret-color:\"transparent\"}}\n                              >\n                          ...\n                        ...\n                      ...\n"
+      ],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "ATLAS CXK",
+      "hasCanvas": false,
+      "bodyTextLen": 997,
+      "bodyTextHash": "bf5e430e460fb742b74c771202e115d7107ffd919c979870bab6d056956df3c5",
+      "bodyTextPrefix": "ATLAS CXK Cơ · Xương · Khớp · Tuần hoàn · Hô hấp CƠ XƯƠNG TUẦN H",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

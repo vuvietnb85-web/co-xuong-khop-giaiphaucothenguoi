@@ -1,0 +1,38 @@
+ATLAS CXK — mô hình 3D dùng giảng dạy
+
+Ba atlas, hai giấy phép. Giữ nguyên khi chia sẻ lại các tệp glb.
+
+1) body.glb — cơ, xương, khớp
+Bản nén Draco cho trình duyệt, dẫn xuất từ atlas Z-Anatomy
+(Gauthier Kervyn), được hpfrei xuất và đơn giản hóa cho web.
+- Z-Anatomy — the libre 3D atlas of anatomy — CC BY-SA 4.0
+  https://www.z-anatomy.com/
+  https://creativecommons.org/licenses/by-sa/4.0/
+- BodyParts3D, Database Center for Life Science (DBCLS), Nhật Bản
+  CC BY-SA 2.1 Japan
+  https://creativecommons.org/licenses/by-sa/2.1/jp/
+
+2) circulation.glb — hệ tuần hoàn
+Cùng nguồn Z-Anatomy / BodyParts3D. Bản glTF do Dr. Murat Altun
+xuất trong dự án anatomi-simulatoru (systems/dolasim.glb),
+CC BY-SA 4.0. Tệp được sao nguyên, không decimate thêm.
+https://github.com/DrMuratAltun/anatomi-simulatoru
+
+3) lung.glb và heart.glb — hệ hô hấp và buồng tim
+Không chỉnh sửa. HuBMAP CCF / Human Reference Atlas,
+3D Reference Object Library v1.2 (2022), CC BY 4.0.
+Visible Human nam. Gợi ý ghi công: Kristen Browne và nhóm
+Human Reference Atlas.
+https://creativecommons.org/licenses/by/4.0/
+Nguồn tệp: hubmapconsortium/ccf-releases v1.2
+(VH_M_Lung.glb, VH_M_Heart.glb).
+
+Phổi Visible Human và cây mạch Z-Anatomy không phải cùng một
+cơ thể, không được chồng lên nhau như một bệnh nhân.
+
+Mô hình là atlas người lớn, tỷ lệ giảng dạy, không phải ảnh
+chụp bệnh nhân và không đủ để chẩn đoán hay phẫu thuật.
+Không phải thiết bị y tế.
+
+Bộ giải mã Draco (public/draco) thuộc Google Draco, giấy phép
+Apache-2.0, đi kèm three.js.
